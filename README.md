@@ -6,7 +6,39 @@
    
 ![image](https://github.com/sanjal7137/MechaCar_Statistical_Analysis/blob/8731fb2b476084975eec52b4f6b1261221f1098d/Image/1.png)
  
- the output of multiple linear regression using the lm() function produces the coefficients for each variable in the linear equation.above image shows the coefficient for vehicle_weight,spoiler_angle,ground_clearence,AWD and MPG. 
+Output of multiple linear regression using the lm() function produces the coefficients for each variable in the linear equation.above image shows the coefficient for vehicle_weight,spoiler_angle,ground_clearence,AWD and MPG. using coefficicents we can write our linear model as per follow:
+ 
+            vehicle_length= -0.00017vehicle_weight - 0.009spoiler_angle - 0.46ground_clearance + 0.40AWD + 0.10 mpg
+            
+Following image shows statistical metrics using summary function.here p-value for each variable shows significant contribution in linear mlodel.here we can say that ground_clearence and mpg have a significant impact on vehicle length.
+            
+      
+            
+  ![image](https://github.com/sanjal7137/MechaCar_Statistical_Analysis/blob/2a23a6254ddcd8f1dbd85bb3db466c968412cd05/Image/2.png)
+  
+ ## Summary Statastics for Suspension Coils
+ 
+ The below image shows the total_summary for suspension coils's PSI variable across all lots. here varience is 62.29 that satisfy manufacturing requirements that varience of suspension coils must not exceed 100 pouns per square inch .
+ 
+ ![image](https://github.com/sanjal7137/MechaCar_Statistical_Analysis/blob/2a23a6254ddcd8f1dbd85bb3db466c968412cd05/Image/5.png)
+ 
+ Below image shows the lot_summary for suspension coils's PSI variable across each lot. from summary we can say that varience for "Lot3" is more than 100 which is not fulfill the manufacturing requirements.
+ 
+ ![image](https://github.com/sanjal7137/MechaCar_Statistical_Analysis/blob/2a23a6254ddcd8f1dbd85bb3db466c968412cd05/Image/6.png)
+ 
+  ## T-Tests on Suspension Coils
+ Below image shows the t-test fuction that determine PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch or not? from result of t-test we concentrate on p-value here our p-value is 0.06 is above our significant level therefor we donot have sufficient evidence to reject null hypothesis and we would stat that true mean is not equal to 1500.
+ 
+![image](https://github.com/sanjal7137/MechaCar_Statistical_Analysis/blob/43752515560145a413c4041f8b660ec26db2f500/Image/3.png)
+
+![image](https://github.com/sanjal7137/MechaCar_Statistical_Analysis/blob/43752515560145a413c4041f8b660ec26db2f500/Image/4.png)
+
+![image](https://github.com/sanjal7137/MechaCar_Statistical_Analysis/blob/43752515560145a413c4041f8b660ec26db2f500/Image/lot2.png)
+
+![image](https://github.com/sanjal7137/MechaCar_Statistical_Analysis/blob/43752515560145a413c4041f8b660ec26db2f500/Image/lot3.png)
+
+
+
  
 ## Results
 
