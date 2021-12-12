@@ -6,6 +6,8 @@
    
 ![image](https://github.com/sanjal7137/MechaCar_Statistical_Analysis/blob/8731fb2b476084975eec52b4f6b1261221f1098d/Image/1.png)
  
+ the output of multiple linear regression using the lm() function produces the coefficients for each variable in the linear equation.above image shows the coefficient 
+ 
 ## Results
 
 
