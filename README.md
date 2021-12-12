@@ -2,11 +2,11 @@
 
 ## Linear Regression to Predict MPG
 
-   The main objective behind analysis in to find out how NYC bike sharing business work? for this we used 201908-citibike-tripdata and perfoming analysis based on tableau chart to give answer to differnt questions regarding NYC bike sharing.
-   
+Output of multiple linear regression using the lm() function produces the coefficients for each variable in the linear equation.
+
 ![image](https://github.com/sanjal7137/MechaCar_Statistical_Analysis/blob/8731fb2b476084975eec52b4f6b1261221f1098d/Image/1.png)
  
-Output of multiple linear regression using the lm() function produces the coefficients for each variable in the linear equation.above image shows the coefficient for vehicle_weight,spoiler_angle,ground_clearence,AWD and MPG. using coefficicents we can write our linear model as per follow:
+above image shows the coefficient for vehicle_weight,spoiler_angle,ground_clearence,AWD and MPG. using coefficicents we can write our linear model as per follow:
  
             vehicle_length= -0.00017vehicle_weight - 0.009spoiler_angle - 0.46ground_clearance + 0.40AWD + 0.10 mpg
             
